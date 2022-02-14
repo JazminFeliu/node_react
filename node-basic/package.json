@@ -1,0 +1,14 @@
+{
+  "name": "basic",
+  "version": "1.0.0",
+  "description": "Learning node js",
+  "main": "app.js",
+  "scripts": {
+    "dev": "node app.js"
+  },
+  "author": "Jazmin Feliu",
+  "license": "ISC",
+  "dependencies": {
+    "nondemon": "^2.0.15"
+  }
+}
