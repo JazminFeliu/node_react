@@ -1,25 +1,24 @@
-//console.log("Hello from node js");
+// const express = require("express")
+// const app = express()
 
-//learn about functions
-const express = require("express")
-const helpers = require("./helpers");
-const http = require('http')
+// app.get("/", (req, res) => {
+//     res.send("hey que pasa viejo! from express")
+// });
 
-const server = http.createServer((req, res) => {
-    res.end("hello world from node js real update")
+
+
+// app.listen(8080);
+
+const fs = require("fs")
+
+const fileName = "target.txt"
+// fs.watch(fileName, () => console.log("File changed!"));
+
+fs.readFile(fileName, (err, data) => {
+    if (err){
+        console.log(err)
+    }
+    console.log(data.toString());
 });
 
-server.listen(8080);
-
-const total = helpers.sum(30000, 5678);
-const a = 12;
-const b = 3;
-console.log(helpers.sum(a,b));
-console.log(helpers.resta(a,b));
-console.log(helpers.divi(a,b));
-console.log(helpers.mul(a,b));
-
-console.log(helpers.sum(2,4));
-console.log("El total es: ",total);
-
-//console.log("PROCESS: ",process);
+console.log("Node js async programming...?");

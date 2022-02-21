@@ -1,0 +1,18 @@
+esto es un texto de prueba
+para verificar si la programacion asincrona 
+permite realizar el paso a paso
+de las ordenes, o si por el contrario,
+es asincrona, es decir, puede continuar con la ejecucion
+del programa, salteandose sentencias que necesitan una respuesta o que son mas complejas o necesitan
+mas tiempo para ejecutarse, y dandole prioridad a lo proximo, y 
+luego, con la funcion de event loop, vuelve y realiza las acciones que quedaron pendientes.
+En este ejemplo, es mas simple primero mostrar el texto del console.log final ("Node js async programming...?)
+que leer un txt (target.txt) y pasar toda la info a string (toString) para luego 
+mostrarla por consola tambien.
+asynchronous programming 
+node js single threaded non blocking i/o model
+even though it is single threaded - it is efficient
+because it uses non-locking event loop
+and keeps the events in a stack
+they will be executed one by one without waiting for any one of these to complete
+instead they will be executed and completed as the process is running other callbacks
