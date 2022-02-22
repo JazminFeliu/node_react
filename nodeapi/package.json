@@ -1,0 +1,19 @@
+{
+  "name": "nodeapi",
+  "version": "1.0.0",
+  "description": "A Node Js API",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "node",
+    "api"
+  ],
+  "author": "Jazmin Feliu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  }
+}
